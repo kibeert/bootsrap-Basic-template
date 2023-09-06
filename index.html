@@ -50,18 +50,80 @@
                 <div class="card border p-2 mx-5 " style="width:400px">
                     <img class="card-img-top rounded-4" src="images/lucas-hoang-pXMn-e6ixK4-unsplash.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="index.html" class="btn btn-primary">See Profile</a>
+                    <h4 class="card-title">Emmanuel Kosgei</h4>
+                    <p class="card-text">Tech Solutions</p>
+                    <a href="index.html" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Get In Touch</a>
                     </div>
                 </div>
             <div class="col-sm-6 p-2 mx-4 " id="card2">
                 <img class="card-img-top rounded-4" src="images/richard-stachmann-y0XJKDSSX5M-unsplash.jpg" alt="Card image" style="width:100%" height="500px">
                     <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="index.html" class="btn btn-primary">See Profile</a>
+                    <h4 class="card-title">Emmanuel Kosgei</h4>
+                    <p class="card-text">Architectural Designs and Construction</p>
+                    <a href="index.html" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Get In Touch</a>
                     </div>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                      
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                              <h4 class="modal-title">Contact Form</h4>
+                              
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                      
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                              <form action="" >
+                                <div class="form-floating mb-3 mt-3">
+                                    <input type="text" class="form-control" id="Fname" placeholder="First name" name="Fname">
+                                    <label for="Fname">First Name</label>
+                                  </div>
+                                  
+                                  <div class="form-floating mt-3 mb-3">
+                                    <input type="text" class="form-control" id="lname" placeholder="Last Name" name="lname">
+                                    <label for="lname">Last Name</label>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Enter email" name="email">
+                                    </div>
+                                    <div class="col">
+                                      <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                                    </div>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                    <input type="text" class="form-control" id="contacts" placeholder="Phone Number" name="contacts">
+                                    <label for="contacts">Phone Number</label>
+                                  </div>
+                                  <label for="browser" class="form-label">preferred mode of contact: <br>if other Specify</label>
+                                    <input class="form-control" list="browsers" name="browser" id="browser">
+                                    <datalist id="browsers">
+                                    <option value="Email">
+                                    <option value="Call">
+                                    <option value="Email">
+                                    <option value="None">
+                                    <option value="">
+                                    </datalist>
+                                                                        
+                                    </datalist>
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                                        <label for="comment">Comments</label>
+                                      </div>
+                              </form>
+                            </div>
+                      
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                &copy; 2023 manu
+                              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                      
+                          </div>
+                        </div>
+                      </div>
             </div>       
             </div>
         </div>
